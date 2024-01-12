@@ -1,0 +1,130 @@
+/* *{
+    background-color: red;
+} */
+#navlist{
+    width: 60%;
+}
+#rightnav{
+    width: 40%;
+}
+#search{
+    width: 50%;
+}
+#rightnav .btn{
+    width: 18%;
+}
+.firstHalf{
+    width: 60%;
+}
+@media only screen and (max-width:700px){
+    /* *{
+        background-color: purple;
+    } */
+    #navlist li a{
+        font-size: medium;
+    }
+    #rightnav .btn{
+        width: 20%;
+    }
+    .buttons .btn{
+        width: 22%;
+    }
+    .sectionTag{
+        text-align: center;
+        width: 100%;
+    }
+    .paras{
+        width: 100%;
+    }
+    .secRight{
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+    .secLeft{
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+    .thumbnail{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .thumbnail img{
+        width: 40rem;
+        border-radius: 25px;
+    }
+}
+@media only screen and (max-width:600px){
+    /* *{
+        background-color: blue;
+    } */
+    nav{
+        width: 135%;
+    }
+    .box-main{
+        width: 150%;
+    }
+    .secRight,.secLeft{
+        width: 140%;
+    }
+    .contact,footer{
+        width:140%;
+    }
+    .contact::before,.background::before{
+        width:140%;
+    }
+}
+@media only screen and (max-width:450px){
+    /* *{
+        background-color: red;
+    } */
+    nav{
+        flex-direction: column;
+        background: none;
+        position: static;
+        width: 140%;
+        background: url("./17213260_rm373batch13-085.jpg");
+        height: 377px;
+        transition: all 0.7s ease-out;
+    }
+    #navlist{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    #rightnav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    #navlist li{
+        padding: 10px;
+    }
+    .burger{
+        display: block;
+    }
+    #logo{
+        margin: 9px;
+    }
+    .v-class{
+        opacity: 0;
+    }   
+    .buttons .btn{
+        width: 30%;
+    }
+    .h-nav{
+        height:65px;
+    }
+    .background::before{
+        height: 800px;
+    }
+    .contact .buttons .btn{
+        margin: 10px 0px;
+    }
+    .sectionSubtag{
+        text-align: center;
+    }
+}

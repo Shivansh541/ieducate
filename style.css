@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css?family=Yeon+Sung|ZCOOL+QingKe+HuangYou|Baloo+bhai&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-family: 'Baloo Bhai',cursive;
+}
+nav{
+    display: flex;
+    height: 65px;
+    position: sticky;
+    top: 0;
+    background: url("./17213260_rm373batch13-085.jpg")
+
+}
+#navlist{
+    /* background-color: yellow; */
+    width: 50%;
+}
+#rightnav{
+    /* background-color: blue; */
+    width: 50%;
+    padding: 8px;
+    text-align: right;
+}
+#navlist{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+#navlist li{
+    list-style: none;
+}
+#navlist li a{
+    text-decoration: none;
+    padding: 4px;
+    font-size: x-large;
+    color: white;
+    font-family: 'Bree Serif',serif;
+}
+#logo img{
+    height: 60px;
+    border: 2px solid white;
+    border-radius: 40px;
+    /* filter: invert(1); */
+}
+#logo{
+    height: 60px;
+}
+#navlist li a:hover{
+    color: rgb(0, 234, 255);
+    text-decoration: underline;
+}
+#search{
+    padding: 11px;
+    width: 27%;
+    height: 30px;
+    margin: 8px;
+    border: 2px solid black;
+    border-radius: 21px;
+}
+.btn{
+    padding: 4px;
+    margin: 10px;
+    margin-right: 35px;
+    width: 9%;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+}
+.btn:hover{
+    color: black;
+    background-color: white;
+}
+div.box-main{
+    height: 400px;
+    margin-bottom: 35px;
+}
+.background::before{
+    content: "";
+    top:0px;
+    position: absolute;
+    height: 500px;
+    width: 100%;
+    z-index: -1;
+    background: url("./17213260_rm373batch13-085.jpg") no-repeat center center/cover;
+    opacity: 2;
+}
+.secondhalf img{
+    height:100px;
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    color: white;
+}
+.firstHalf{
+    width:40%;
+}
+.textBig{
+    font-size: 35px;
+    padding: 10px;
+    padding-left: 0;
+}
+.text-small{
+    font-size: 18px;
+}
+.buttons .btn{
+    background-color: black;
+    width: 15%;
+    margin: 7px;
+    margin-left: 0;
+    border: 2px solid black;
+}
+.buttons .btn:hover{
+    background-color: white;
+    color: black;
+}
+.secondhalf img{
+    margin: 25px;
+    border: 2px solid white;
+    border-radius: 50%;
+    height: 120px;
+    width: 130px;
+}
+.secRight{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 75px 0px; */
+    padding: 50px 0px;
+    background-color: #c6f1ff;
+}
+.secLeft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+    background-color: #c6f1ff;
+    flex-direction: row-reverse;
+}
+.thumbnail img{
+    height: 220px;
+    border: 5px solid black;
+    margin: 25px;
+    border-radius: 10%;
+}
+.paras{
+    width: 60%;
+}
+.sectionTag{
+    padding: 10px;
+    padding-left: 0;
+    font-size: 33px;
+}
+.sectionSubtag{
+    font-family: 'bree serif',serif;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 448px;
+}
+.contact{
+    text-align: center;
+}
+input{
+    padding: 7px;
+    margin: 7px;
+    width: 50%;
+    border: 2px solid;
+    border-radius: 10px;
+}
+textarea{
+    padding: 8px;
+    margin: 7px;
+    width: 50%;
+    border: 2px solid;
+    border-radius: 10px;
+}
+.contact .buttons{
+    width:70%;
+}
+.contact .buttons .btn{
+    margin: 10px 20px;
+}
+.contact::before{
+    content: "";
+    /* top:0px; */
+    position: absolute;
+    background: url("./pexels-pixabay-301920.jpg") no-repeat center center/cover;
+    height: 500px;
+    width: 100%;
+    z-index: -1;
+    opacity: 1;
+    left: 0;
+}
+.contact h1{
+    padding-top: 10px;
+    font-size: 30px;
+}
+::placeholder{
+    font-weight: bold;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: -33%;
+    top: 15px;
+}
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 3px 3px;
+}
